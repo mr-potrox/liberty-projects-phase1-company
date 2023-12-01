@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>JD Company</title>
+		<!-- adding Font Awesome Lib -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+		</head>
+	<body>
+		<main id="main">
+			<header>
+				<!-- Navigation Bar -->
+				<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+					<!-- brand name -->
+					<a class="navbar-brand" href="#">JD INC.</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					  <span class="navbar-toggler-icon"></span>
+					</button>
+				  
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					  <ul class="navbar-nav mr-auto">
+						<li class="nav-item active">
+						  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+						  <a class="nav-link" href="#">Link</a>
+						</li>
+										
+					  </ul>
+					</div>
+				</nav>
+			</header>
+			<!-- creating the hero section -- the dark theme was added with the bg-dark bootstrap class -->
+			<section class="hero bg-dark">
+				<div class="container col-xxl-8 px-4 py-5">
+					<!-- aligning the item  -->
+					<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+						<!-- Hero buttons -->
+						<div class="col-10 col-sm-8 col-lg-6">
+							<img src="assets/portfolio.jepg" class="d-block mx-lg-auto img-fluid" alt="Company IMG" width="700" height="500" loading="lazy">
+						</div>
+						<!-- Text section -->
+						<div class="col-lg-6">
+							<!-- bolding class was used and text-white to styling the hero H1 -->
+							<h1 class="display-6 fw-bold text-white">JD COMPANY INC.</h1>
+							<!-- adding a ligth grey color for the Hero description text and the lead class to stand out the paragraph-->
+							<p class="lead text-light">We are a creative group of people who design influential brandsand digital experiences.</p>
+							<!-- Hero button´s -->
+							<div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+								<button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">More Info</button>
+								<button type="button" class="btn btn-outline-light btn-lg px-4">Contact Us</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Services section whith the pt-5 class to add a padding top-->
+			<section class="services pt-5 pb-5">
+				<div class="container">
+					<h2 class="display-5"> Our Services</h2>
+					<hr class="hr">
+					<!-- Adding the Row class to build the card grid layout-->
+					<div class="row row-cols-1 row-cols-md-3 g-4">
+						<div class="col">
+							<!-- Card wrapper  -->
+						  <div class="card">
+							  <!-- card img -->
+							<img src="assets/portfolio.jepg" class="card-img-top" alt="assets/portfolio.jepg">
+							<!-- card body wrapper -->
+							<div class="card-body">
+							  <h5 class="card-title">Card title</h5>
+							  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+						  </div>
+						</div>
+						<div class="col">
+						  <div class="card">
+							<img src="assets/portfolio.jepg" class="card-img-top" alt="assets/portfolio.jepg">
+							<div class="card-body">
+							  <h5 class="card-title">Card title</h5>
+							  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+						  </div>
+						</div>
+						<div class="col">
+						  <div class="card">
+							<img src="assets/portfolio.jepg" class="card-img-top" alt="assets/portfolio.jepg">
+							<div class="card-body">
+							  <h5 class="card-title">Card title</h5>
+							  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+							</div>
+						  </div>
+						</div>
+						<div class="col">
+						  <div class="card">
+							<img src="assets/portfolio.jepg" class="card-img-top" alt="assets/portfolio.jepg">
+							<div class="card-body">
+							  <h5 class="card-title">Card title</h5>
+							  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+							</div>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about bg-light">
+				<div class="container px-4 py-5">
+					<h2 class="display-5"> About Us</h2>
+					<hr class="hr">
+					<div class="row row-cols-1 row-cols-md-3 g-4 lead text-dark-emphasis h-75 ">
+						<div class="col-lg-6">
+						  <img src="assets/about.jpg" class="img-fluid" alt="">
+						</div>
+						<div class="col-lg-6 pt-4 pt-lg-20">
+						  <h4 class="bx bx-receipt">
+							We are the company you probably don’t know behind many of the digital transformations you do know
+						  </h4>
+						 <!-- text section -->
+						  <div class="row">
+							  <p>We have a new way to build technology that transforms businesses while caring for the environment and society. A unique culture organized in 4 pillars:</p>
+							  <!--rtemove the list bullets  -->
+							  <ul class="list-unstyled">
+								<li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+									<path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+								  </svg> Agile pods that are at the top of our organizational chart.</li>
+								<li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+									<path d="M6 12.796V3.204L11.481 8zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+								  </svg> Our Studio Networks: Reinvent, Create, Digital and Enterprise. They nucleate our Studios and their expertise in different technologies and industries.</li>
+							  </ul>
+						  	</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- divider section -->
+			<section class="bg-dark text-center text-white-50">
+				<!-- adding details section  -->
+				<div class="text-center pt-5 pb-5 row">
+					<div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0 position-relative">
+					<i class="fas fa-cubes fa-3x text-light-emphasis mb-4"></i>
+					<h5 class="text-light-emphasis fw-bold mb-3">5000+</h5>
+					<h6 class="fw-normal mb-0">Happy Clients</h6>
+					<div class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"></div>
+					</div>
+					<div class="col-lg-3 col-md-6 mb-5 mb-md-0 position-relative">
+						<i class="fas fa-plug fa-3x text-light-emphasis mb-4"></i>
+						<h5 class="text-light-emphasis fw-bold mb-3">28</h5>
+						<h6 class="fw-normal mb-0">Projects</h6>
+						<div class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"></div>
+
+					</div>
+					<div class="col-lg-3 col-md-6 mb-5 mb-md-5 mb-lg-0 position-relative">
+					<i class="fas fa-layer-group fa-3x text-light-emphasis mb-4"></i>
+					<h5 class="text-light-emphasis fw-bold mb-3">4490+</h5>
+					<h6 class="fw-normal mb-0">Hours Of Support</h6>
+					<div class="vr vr-blurry position-absolute my-0 h-100 d-none d-md-block top-0 end-0"></div>
+					</div>
+				
+					<div class="col-lg-3 col-md-6 mb-5 mb-md-0 position-relative">
+					<i class="fas fa-image fa-3x text-light-emphasis mb-4"></i>
+					<h5 class="text-light-emphasis fw-bold mb-3">100+</h5>
+					<h6 class="lead mb-0">Hard Workers</h6>
+					</div>
+				
+					
+					<!-- <hr class="hr"> -->
+				</div>
+			</section>
+			<footer class="bg-dark text-center text-white">
+				
+				<!-- Grid container -->
+				<div class="container p-4 pb-0">
+				  <!-- Section: Social media -->
+				  <section class="mb-4">
+					<!-- Facebook -->
+					<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+					  ><i class="fab fa-facebook-f"></i
+					></a>
+			  
+					<!-- Twitter -->
+					<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+					  ><i class="fab fa-twitter"></i
+					></a>
+			  
+					<!-- Google -->
+					<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+					  ><i class="fab fa-google"></i
+					></a>
+			  
+					<!-- Instagram -->
+					<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+					  ><i class="fab fa-instagram"></i
+					></a>
+			  
+					<!-- Linkedin -->
+					<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+					  ><i class="fab fa-linkedin-in"></i
+					></a>
+			  
+					<!-- Github -->
+					<a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+					  ><i class="fab fa-github"></i
+					></a>
+				  </section>
+				  <!-- Section: Social media -->
+				</div>
+				<!-- Grid container -->
+			  
+				<!-- Copyright -->
+				<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+				  © 2023 Copyright:
+				  <a class="text-white" href="https://jdinc.com/">JDinc.com</a>
+				</div>
+				<!-- Copyright -->
+			  </footer>
+		  </main>
+	</body>
+</html>
